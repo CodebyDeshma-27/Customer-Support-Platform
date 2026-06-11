@@ -65,7 +65,7 @@ tests.forEach((test, index) => {
 
 console.log('\n\n📋 Before Running Tests:\n');
 console.log('1. Create .env.local file:');
-console.log('   VITE_FIREBASE_API_KEY=AIzaSyCLOJncCsDPC8SZgfC5JG1U9epIcrCabrg');
+console.log('   VITE_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY');
 console.log('   VITE_FIREBASE_AUTH_DOMAIN=voice-digest-vt.firebaseapp.com');
 console.log('   VITE_FIREBASE_PROJECT_ID=voice-digest-vt');
 console.log('   VITE_FIREBASE_STORAGE_BUCKET=voice-digest-vt.firebasestorage.app');

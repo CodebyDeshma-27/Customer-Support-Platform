@@ -26,7 +26,7 @@ CORS(app)
 # --- Gemini API Key ---
 # 🚨 IMPORTANT: Replace this placeholder with your actual key or use environment variable.
 # Using a placeholder here based on the agent code, but environment variable is BEST.
-API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyCM-H7eKRrEy5yJhBLtiNhHp6g7jfo40bc") 
+API_KEY = os.environ.get("GOOGLE_API_KEY")
 if not API_KEY:
     print("Error: The GOOGLE_API_KEY environment variable is not set.")
     sys.exit(1)
